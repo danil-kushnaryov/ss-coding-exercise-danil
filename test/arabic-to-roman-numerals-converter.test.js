@@ -7,8 +7,8 @@ const expects = ({converted, expected}) => {
   expect(result).to.equal(expected);
 };
 
-describe('pluralsight engineer coding exercise', () => {
-  describe('arabic to roman numerals converter class', () => {
+describe('Pluralsight engineer coding exercise.', () => {
+  describe('Arabic to roman numerals converter class:', () => {
     it('does nothing, just a blank test',
       () => expect(true).to.equal(true));
 
